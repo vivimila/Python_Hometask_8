@@ -2,7 +2,7 @@
 
 import sqlite3
 
-connect = sqlite3.connect("students.bd")
+connect = sqlite3.connect("students.db")
 curcor = connect.cursor()
 
 curcor.execute('''CREATE TABLE students(
